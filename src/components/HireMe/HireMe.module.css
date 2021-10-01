@@ -1,0 +1,91 @@
+.hireMeContainer {
+  color: white;
+  padding: 0px 0px 100px 0px;
+}
+
+.hireMeContainer h2 {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 40px auto 30px auto;
+  max-width: 47%;
+}
+
+.hireMeContainer hr {
+  background-color: red;
+  max-width: 0.1px;
+  border: 0.51px solid red;
+  height: 134px;
+  opacity: 0.9;
+  margin: 0px auto;
+}
+
+.hireMeContainer h6 {
+  opacity: 0.98;
+  font-size: 15px;
+  max-width: 57%;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 2rem auto;
+  line-height: 3rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  vertical-align: middle;
+  margin: 90px 0px;
+}
+
+.formContainer input {
+  width: 446px;
+  height: 45px;
+  margin: 15px 20px 20px 20px;
+  padding: 12px 13px;
+  border: 1px solid rgb(83, 79, 79);
+}
+
+.formContainer input::placeholder {
+  font-size: 18px;
+  font-weight: 600;
+  color: #707070;
+  font-family: "Poppins";
+}
+
+.formContainer textarea {
+  width: 948px;
+  height: 120px;
+  padding: 10px 20px;
+  margin: 15px auto;
+}
+
+.formContainer textarea::placeholder {
+  font-size: 18px;
+  font-weight: 600;
+  color: #707070;
+  font-family: "Poppins";
+}
+
+.heroBtnContainer {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hireBtn {
+  background-color: red;
+  border: 2px solid white;
+  font-size: 20px;
+  padding: 20px 70px;
+  border-radius: 50px;
+}
+
+.hireBtn:hover {
+  color: red;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid red;
+  transition: 0.3s;
+}

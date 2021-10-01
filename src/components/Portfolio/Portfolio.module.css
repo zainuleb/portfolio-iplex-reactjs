@@ -1,0 +1,9 @@
+.portfolioHeader {
+  display: flex;
+  color: white;
+}
+
+.portfolioHeading h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
