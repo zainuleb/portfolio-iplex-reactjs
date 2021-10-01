@@ -8,11 +8,11 @@
 .dottedBg {
   position: absolute;
   z-index: 1;
-  left: 342px;
-  bottom: -89px;
+  left: 220px;
+  top: 0px;
 }
 .dottedBg img {
-  max-width: 456px;
+  max-width: 340px;
   opacity: 0.9;
 }
 
@@ -25,24 +25,24 @@
   max-width: 112px;
 }
 .navListContainer {
-  margin: 0px 20px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 .navList {
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 10px;
+  gap: 1px;
 }
 .navList li {
   padding: 20px 0px 25px 0px;
 }
 
 .navList li span {
-  max-width: 120px;
+  max-width: 80px;
   width: 100%;
   padding: 20px 19px;
-  font-size: 17.5px;
+  font-size: 14.5px;
   font-weight: 600;
   font-family: inherit;
   cursor: pointer;
@@ -100,8 +100,12 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .dottedBg {
-    left: 210px;
-    bottom: -90px;
+  .dottedBg img {
+    max-width: 290px;
+  }
+
+  .navList li:last-child span {
+    padding: 9px 20px;
+    font-size: 14px;
   }
 }

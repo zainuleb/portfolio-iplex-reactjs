@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap");
+
 .heroContainer {
   display: flex;
   justify-content: space-between;
@@ -103,4 +104,45 @@
   max-width: 78px;
   top: 506px;
   right: -68px;
+}
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .heroRightContainer img:nth-child(2) {
+    display: none;
+  }
+
+  .heroRightContainer img:last-child {
+    display: none;
+  }
+
+  .heroContentContainer h4 {
+    font-size: 29px;
+  }
+  .heroContentContainer h1 {
+    font-size: 95px;
+    line-height: 88px;
+  }
+  .heroContentContainer p {
+    font-size: 15px;
+  }
+  .socialContainer p {
+    font-size: 20px;
+  }
+  .iconContainer img {
+    max-width: 33px;
+    max-height: 23px;
+  }
+  .hireBtn {
+    font-size: 17px;
+    padding: 14px 49px;
+  }
+
+  .heroLeftContainer {
+    margin: 92px 0px 0px 0px;
+  }
+
+  .heroRightContainer img {
+    max-width: 100%;
+  }
 }

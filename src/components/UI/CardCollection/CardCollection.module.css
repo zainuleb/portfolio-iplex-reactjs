@@ -5,3 +5,12 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 74px 44px;
 }
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .collectionContainer {
+    grid-template-columns: 1fr 1fr;
+    margin: 90px 51px;
+    grid-gap: 58px 30px;
+  }
+}

@@ -176,3 +176,47 @@
   border-color: red;
   transition: all 0.7s;
 }
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .testemonialContainer h2 {
+    font-size: 38px;
+  }
+  .testemonialContainer hr {
+    max-width: 200px;
+  }
+  .testemonialContainer h6 {
+    line-height: 42px;
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .feedbackWrap h3 {
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  .quotesPara {
+    text-align: center;
+  }
+
+  .quotesPara::before {
+    bottom: 25%;
+    font-size: 170px;
+  }
+
+  .quotesPara::after {
+    top: 78%;
+    left: 79%;
+    font-size: 170px;
+  }
+
+  .clientNamePara {
+    margin-top: 45px 0px;
+    text-align: center;
+  }
+
+  .saraImageSmall {
+    top: 40%;
+    left: 4%;
+  }
+}

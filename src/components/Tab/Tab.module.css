@@ -19,3 +19,11 @@
   color: white;
   font-size: 30px;
 }
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .tabList {
+    max-width: 40%;
+    padding: 0px 20px;
+  }
+}

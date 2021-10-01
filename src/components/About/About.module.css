@@ -53,3 +53,38 @@
   border: 50px solid #0e0c38;
   max-width: 80%;
 }
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .aboutContainer {
+    background-position: 457px 182px;
+    background-size: 91px 1.2px;
+  }
+  .aboutImageContainer img {
+    max-width: 70%;
+    border: 30px solid #0e0c38;
+  }
+
+  .aboutContainer {
+    padding: 115px 0px 0px 0px;
+  }
+
+  .contentContainer {
+    margin: 10px 0px;
+    padding: 0px 20px;
+  }
+
+  .contentContainer h2 {
+    font-size: 43px;
+  }
+
+  .contentContainer p {
+    font-size: 16px;
+    margin: 27px 0px;
+    line-height: 38px;
+  }
+  .aboutBtn {
+    padding: 10px 23px;
+    font-size: 17px;
+  }
+}

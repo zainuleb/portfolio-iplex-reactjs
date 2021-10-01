@@ -89,3 +89,28 @@
   border: 2px solid red;
   transition: 0.3s;
 }
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .hireMeContainer h2 {
+    font-size: 35px;
+  }
+  .hireMeContainer hr {
+    height: 100px;
+  }
+  .hireMeContainer h6 {
+    max-width: 74%;
+    line-height: 2rem;
+  }
+
+  .formContainer {
+    margin: 50px 0px;
+  }
+
+  .formContainer textarea {
+    max-width: 435px;
+  }
+  .hireBtn {
+    padding: 12px 61px;
+  }
+}

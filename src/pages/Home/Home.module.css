@@ -17,3 +17,10 @@
 .testemonialSection {
   background-color: #040221;
 }
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .portfolioSection {
+    padding: 50px 0px 50px 0px;
+  }
+}
