@@ -2,7 +2,7 @@
   "name": "portfolio-iplex-reactjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:/zainuleb.github.io/portfolio-iplex-reactjs",
+  "homepage": "http:/zainuleb.github.io/portfolio-iplex-reactjs",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
