@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/zainuleb/portfolio-iplex-reactjs/static/css/main.ef5a033a.chunk.css",
+    "main.js": "/zainuleb/portfolio-iplex-reactjs/static/js/main.de307273.chunk.js",
+    "main.js.map": "/zainuleb/portfolio-iplex-reactjs/static/js/main.de307273.chunk.js.map",
+    "runtime-main.js": "/zainuleb/portfolio-iplex-reactjs/static/js/runtime-main.732eaada.js",
+    "runtime-main.js.map": "/zainuleb/portfolio-iplex-reactjs/static/js/runtime-main.732eaada.js.map",
+    "static/js/2.d5d12a7c.chunk.js": "/zainuleb/portfolio-iplex-reactjs/static/js/2.d5d12a7c.chunk.js",
+    "static/js/2.d5d12a7c.chunk.js.map": "/zainuleb/portfolio-iplex-reactjs/static/js/2.d5d12a7c.chunk.js.map",
+    "index.html": "/zainuleb/portfolio-iplex-reactjs/index.html",
+    "static/css/main.ef5a033a.chunk.css.map": "/zainuleb/portfolio-iplex-reactjs/static/css/main.ef5a033a.chunk.css.map",
+    "static/js/2.d5d12a7c.chunk.js.LICENSE.txt": "/zainuleb/portfolio-iplex-reactjs/static/js/2.d5d12a7c.chunk.js.LICENSE.txt",
+    "static/media/Home.module.css": "/zainuleb/portfolio-iplex-reactjs/static/media/Ellipse 1@2x.e3d0efe5.png",
+    "static/media/index.css": "/zainuleb/portfolio-iplex-reactjs/static/media/Raleway-ThinItalic.714920a2.woff",
+    "static/media/Testemonials.module.css": "/zainuleb/portfolio-iplex-reactjs/static/media/map-55e32ae4c19a85738ebb72d3172e3ab7@2x.5d62f3cc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.732eaada.js",
+    "static/js/2.d5d12a7c.chunk.js",
+    "static/css/main.ef5a033a.chunk.css",
+    "static/js/main.de307273.chunk.js"
+  ]
+}
