@@ -1,0 +1,222 @@
+.testemonialContainer {
+  color: white;
+  padding: 10px 0px;
+}
+
+.testemonialContainer h2 {
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 40px 0px 30px 0px;
+}
+
+.testemonialContainer hr {
+  background-color: red;
+  max-width: 270px;
+  border: 0.51px solid red;
+  opacity: 0.8;
+}
+
+.testemonialContainer h6 {
+  opacity: 0.98;
+  font-size: 22px;
+  max-width: 93%;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 1rem auto;
+  margin: 2rem auto;
+  line-height: 45px;
+}
+
+.mainFeedback {
+  background-color: #040221;
+  color: white;
+}
+.feedbackWrap h3 {
+  font-size: 60px;
+}
+.feedbackImagesWrap {
+  background-image: url("../../assets/home/testemonial/map-55e32ae4c19a85738ebb72d3172e3ab7@2x.png");
+  background-repeat: no-repeat;
+  background-size: 636px 320px;
+  width: 100%;
+  margin: 120px 0 115px;
+  min-height: 394px;
+}
+.feedbackImages,
+.feedbackComment {
+  width: 50%;
+  padding: 30px 0px 50px;
+}
+.feedbackImages {
+  position: relative;
+}
+.saraImagelarge,
+.tinaImagelarge {
+  width: 150px;
+  height: 148px;
+  border: 10px solid transparent;
+  border-radius: 50%;
+}
+.saraImageSmall {
+  width: 80px;
+  height: 80px;
+  border: 10px solid transparent;
+  border-radius: 50%;
+}
+.tinaImageSmall {
+  width: 110px;
+  height: 110px;
+  border: 10px solid transparent;
+  border-radius: 50%;
+}
+.johnImageleft,
+.johnImageright {
+  width: 142px;
+  height: 137px;
+  border: 10px solid transparent;
+  border-radius: 50%;
+}
+.feedbackHeading {
+  position: relative;
+}
+.feedbackHeading h3 {
+  padding: 103px 0px 81px;
+}
+.feedbackHeading p {
+  width: 80%;
+  margin: auto;
+}
+.clientUnderline {
+  width: 345px;
+  height: 2px;
+  background-color: red;
+  position: absolute;
+  left: 40%;
+  top: 67%;
+}
+.feedbackContent {
+  display: flex;
+  justify-content: space-between;
+}
+.saraImagelarge {
+  position: absolute;
+  top: 7%;
+  right: 16%;
+}
+.johnImageleft {
+  position: absolute;
+  top: 16%;
+  left: 1%;
+}
+.tinaImageSmall {
+  position: absolute;
+  top: 30%;
+  left: 36%;
+}
+.saraImageSmall {
+  position: absolute;
+  top: 46%;
+  left: 12%;
+}
+.johnImageright {
+  position: absolute;
+  bottom: 38%;
+  right: 12%;
+}
+.tinaImagelarge {
+  position: absolute;
+  bottom: 27%;
+  right: 45%;
+}
+.feedbackComment {
+  text-align: left;
+}
+.quotesPara {
+  position: relative;
+  line-height: 2;
+  font-size: 22px;
+  font-weight: 500;
+  max-width: 90%;
+  padding-top: 120px;
+}
+.quotesPara::before {
+  content: '"';
+  position: absolute;
+  bottom: -4%;
+  left: -2%;
+  color: red;
+  font-size: 200px;
+  font-style: italic;
+}
+.quotesPara::after {
+  content: '"';
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  color: red;
+  font-size: 200px;
+  font-style: italic;
+}
+.clientNamePara {
+  font-size: 18px;
+  margin-top: 82px;
+}
+.clientName {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+.saraImagelarge:hover,
+.saraImageSmall:hover,
+.tinaImagelarge:hover,
+.tinaImageSmall:hover,
+.johnImageleft:hover,
+.johnImageright:hover {
+  border-color: red;
+  transition: all 0.7s;
+}
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .testemonialContainer h2 {
+    font-size: 38px;
+  }
+  .testemonialContainer hr {
+    max-width: 200px;
+  }
+  .testemonialContainer h6 {
+    line-height: 42px;
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .feedbackWrap h3 {
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  .quotesPara {
+    text-align: center;
+  }
+
+  .quotesPara::before {
+    bottom: 25%;
+    font-size: 170px;
+  }
+
+  .quotesPara::after {
+    top: 78%;
+    left: 79%;
+    font-size: 170px;
+  }
+
+  .clientNamePara {
+    margin-top: 45px 0px;
+    text-align: center;
+  }
+
+  .saraImageSmall {
+    top: 40%;
+    left: 4%;
+  }
+}

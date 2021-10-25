@@ -1,0 +1,26 @@
+.mainContainer {
+  background-image: url("../../assets/home/hero/Ellipse 1@2x.png");
+  background-repeat: no-repeat;
+  background-position: -136px 160px;
+  background-size: 445px 418px;
+}
+
+.aboutSection {
+  background-color: #040221;
+}
+
+.portfolioSection {
+  padding: 100px 0px 50px 0px;
+  background-color: #040221;
+}
+
+.testemonialSection {
+  background-color: #040221;
+}
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .portfolioSection {
+    padding: 50px 0px 50px 0px;
+  }
+}

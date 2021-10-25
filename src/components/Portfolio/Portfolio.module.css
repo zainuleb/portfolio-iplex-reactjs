@@ -1,0 +1,16 @@
+.portfolioHeader {
+  display: flex;
+  color: white;
+}
+
+.portfolioHeading h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .portfolioHeader {
+    padding: 0px 20px;
+  }
+}

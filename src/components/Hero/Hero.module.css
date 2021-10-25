@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap");
+
+.heroContainer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-align: left;
+  margin: 4px 18px;
+}
+
+.heroLeftContainer {
+  margin: 140px 0px 0px 0px;
+}
+
+.heroContentContainer {
+  max-width: 750px;
+  line-height: 40px;
+}
+
+.heroContentContainer h4 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.heroContentContainer h1 {
+  font-size: 116px;
+  font-weight: 700;
+  line-height: 108px;
+  margin-left: -5px;
+}
+
+.heroContentContainer p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+
+.heroContentContainer p strong {
+  color: red;
+}
+
+.socialContainer {
+  margin: 30px 0px;
+}
+
+.socialContainer p {
+  font-size: 22px;
+  margin: 10px 0px;
+  opacity: 0.9;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 45%;
+}
+
+.iconContainer img {
+  max-width: 45px;
+  max-height: 28px;
+}
+
+.heroBtnContainer {
+  max-width: 80%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+
+.hireBtn {
+  border: 2px solid white;
+  font-size: 20px;
+  padding: 20px 70px;
+  border-radius: 50px;
+}
+
+.hireBtn:hover {
+  cursor: pointer;
+  background-color: red;
+  border: 1px solid red;
+  transition: 0.3s;
+}
+
+.heroRightContainer {
+  position: relative;
+}
+
+.heroRightContainer img {
+  max-width: 95%;
+}
+
+.heroRightContainer img:nth-child(2) {
+  position: absolute;
+  max-width: 40px;
+  bottom: 325px;
+  right: -43px;
+}
+
+.heroRightContainer img:last-child {
+  position: absolute;
+  max-width: 78px;
+  top: 506px;
+  right: -68px;
+}
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .heroRightContainer img:nth-child(2) {
+    display: none;
+  }
+
+  .heroRightContainer img:last-child {
+    display: none;
+  }
+
+  .heroContentContainer h4 {
+    font-size: 29px;
+  }
+  .heroContentContainer h1 {
+    font-size: 95px;
+    line-height: 88px;
+  }
+  .heroContentContainer p {
+    font-size: 15px;
+  }
+  .socialContainer p {
+    font-size: 20px;
+  }
+  .iconContainer img {
+    max-width: 33px;
+    max-height: 23px;
+  }
+  .hireBtn {
+    font-size: 17px;
+    padding: 14px 49px;
+  }
+
+  .heroLeftContainer {
+    margin: 92px 0px 0px 0px;
+  }
+
+  .heroRightContainer img {
+    max-width: 100%;
+  }
+}

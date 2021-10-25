@@ -1,0 +1,29 @@
+.tabList {
+  display: flex;
+  justify-content: space-between;
+  max-width: 30%;
+  padding: 0;
+}
+
+.tabList li {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.tabList li span:hover {
+  transition: ease-in-out 0.8s;
+  color: red;
+}
+
+.content {
+  color: white;
+  font-size: 30px;
+}
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .tabList {
+    max-width: 40%;
+    padding: 0px 20px;
+  }
+}

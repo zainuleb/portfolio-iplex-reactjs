@@ -1,0 +1,150 @@
+.container {
+  max-width: 1749px;
+  margin: 0 auto;
+}
+.mainFeedback {
+  background-color: #040221;
+  color: white;
+}
+.feedbackWrap h3 {
+  font-size: 60px;
+}
+.feedbackImagesWrap {
+  background-image: url("../../assets/images/feedbackImage.png");
+  background-size: 625px 350px;
+  background-position: 0px 44px;
+  background-repeat: no-repeat;
+  width: 90%;
+  margin: 110px auto 128px auto;
+}
+.feedbackImages,
+.feedbackComment {
+  width: 50%;
+  padding: 117px 0px 162px;
+}
+.feedbackImages {
+  position: relative;
+}
+.saraImagelarge,
+.tinaImagelarge {
+  width: 187px;
+  height: 187px;
+  border: 10px solid transparent;
+  border-radius: 50%;
+}
+.saraImageSmall {
+  width: 96px;
+  height: 96px;
+  border: 10px solid transparent;
+  border-radius: 50%;
+}
+.tinaImageSmall {
+  width: 125px;
+  height: 125px;
+  border: 10px solid transparent;
+  border-radius: 50%;
+}
+.johnImageleft,
+.johnImageright {
+  width: 166px;
+  height: 166px;
+  border: 10px solid transparent;
+  border-radius: 50%;
+}
+.feedbackHeading {
+  position: relative;
+}
+.feedbackHeading h3 {
+  padding: 103px 0px 81px;
+}
+.feedbackHeading p {
+  width: 80%;
+  margin: auto;
+}
+.clientUnderline {
+  width: 345px;
+  height: 2px;
+  background-color: red;
+  position: absolute;
+  left: 40%;
+  top: 67%;
+}
+.feedbackContent {
+  display: flex;
+  justify-content: space-between;
+}
+.saraImagelarge {
+  position: absolute;
+  top: 15%;
+  right: 16%;
+}
+.johnImageleft {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+.tinaImageSmall {
+  position: absolute;
+  top: 33%;
+  left: 40%;
+}
+.saraImageSmall {
+  position: absolute;
+  top: 48%;
+  left: 20%;
+}
+.johnImageright {
+  position: absolute;
+  bottom: 28%;
+  right: 16%;
+}
+.tinaImagelarge {
+  position: absolute;
+  bottom: 20%;
+  right: 50%;
+}
+.feedbackComment {
+  text-align: left;
+}
+.quotesPara {
+  position: relative;
+  line-height: 2;
+  font-size: 30px;
+  padding-top: 120px;
+}
+.quotesPara::before {
+  content: '"';
+  position: absolute;
+  bottom: 15%;
+  left: -2%;
+  color: red;
+  font-size: 200px;
+  font-style: italic;
+}
+.quotesPara::after {
+  content: '"';
+  position: absolute;
+  top: 75%;
+  left: 16%;
+  color: red;
+  font-size: 200px;
+  font-style: italic;
+}
+.clientNamePara {
+  font-size: 22px;
+  margin-top: 82px;
+}
+.clientName {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+.saraImagelarge:hover,
+.saraImageSmall:hover,
+.tinaImagelarge:hover,
+.tinaImageSmall:hover,
+.johnImageleft:hover,
+.johnImageright:hover {
+  border-color: red;
+  transition: all 0.7s;
+}

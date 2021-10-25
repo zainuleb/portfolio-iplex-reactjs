@@ -1,0 +1,90 @@
+.aboutContainer {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  padding: 155px 0px 0px 0px;
+  background-image: url("../../assets/home/about/Line\ 6@2x.png");
+  background-size: 270px 1.2px;
+  background-repeat: no-repeat;
+  background-position: 426px 273px;
+}
+
+.contentContainer {
+  align-self: center;
+  text-align: left;
+  max-width: 49%;
+  margin: 55px 0px;
+}
+
+.contentContainer h2 {
+  font-size: 47px;
+  font-weight: 600;
+  margin: 30px 0px 30px 0px;
+}
+
+.contentContainer p {
+  margin: 40px 0px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 45px;
+  opacity: 0.96;
+  max-width: 93%;
+}
+
+.aboutBtn {
+  margin: 80px 0px;
+  padding: 21px 27px;
+  border: 2px solid white;
+  border-radius: 50px;
+  max-width: 26%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.aboutBtn:hover {
+  background-color: red;
+  border: 2px solid red;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.aboutImageContainer img {
+  border: 50px solid #0e0c38;
+  max-width: 80%;
+}
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+  .aboutContainer {
+    background-position: 457px 182px;
+    background-size: 91px 1.2px;
+  }
+  .aboutImageContainer img {
+    max-width: 70%;
+    border: 30px solid #0e0c38;
+  }
+
+  .aboutContainer {
+    padding: 115px 0px 0px 0px;
+  }
+
+  .contentContainer {
+    margin: 10px 0px;
+    padding: 0px 20px;
+  }
+
+  .contentContainer h2 {
+    font-size: 43px;
+  }
+
+  .contentContainer p {
+    font-size: 16px;
+    margin: 27px 0px;
+    line-height: 38px;
+  }
+  .aboutBtn {
+    padding: 10px 23px;
+    font-size: 17px;
+  }
+}
