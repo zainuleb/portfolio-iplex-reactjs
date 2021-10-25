@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/zainuleb.github.io/portfolio-iplex-reactjs/static/css/main.ccc3ba02.chunk.css",
-    "main.js": "/zainuleb.github.io/portfolio-iplex-reactjs/static/js/main.de307273.chunk.js",
-    "main.js.map": "/zainuleb.github.io/portfolio-iplex-reactjs/static/js/main.de307273.chunk.js.map",
-    "runtime-main.js": "/zainuleb.github.io/portfolio-iplex-reactjs/static/js/runtime-main.6bb64b84.js",
-    "runtime-main.js.map": "/zainuleb.github.io/portfolio-iplex-reactjs/static/js/runtime-main.6bb64b84.js.map",
-    "static/js/2.d5d12a7c.chunk.js": "/zainuleb.github.io/portfolio-iplex-reactjs/static/js/2.d5d12a7c.chunk.js",
-    "static/js/2.d5d12a7c.chunk.js.map": "/zainuleb.github.io/portfolio-iplex-reactjs/static/js/2.d5d12a7c.chunk.js.map",
-    "index.html": "/zainuleb.github.io/portfolio-iplex-reactjs/index.html",
-    "static/css/main.ccc3ba02.chunk.css.map": "/zainuleb.github.io/portfolio-iplex-reactjs/static/css/main.ccc3ba02.chunk.css.map",
-    "static/js/2.d5d12a7c.chunk.js.LICENSE.txt": "/zainuleb.github.io/portfolio-iplex-reactjs/static/js/2.d5d12a7c.chunk.js.LICENSE.txt",
-    "static/media/Home.module.css": "/zainuleb.github.io/portfolio-iplex-reactjs/static/media/Ellipse 1@2x.e3d0efe5.png",
-    "static/media/index.css": "/zainuleb.github.io/portfolio-iplex-reactjs/static/media/Raleway-ThinItalic.714920a2.woff",
-    "static/media/Testemonials.module.css": "/zainuleb.github.io/portfolio-iplex-reactjs/static/media/map-55e32ae4c19a85738ebb72d3172e3ab7@2x.5d62f3cc.png"
+    "main.css": "/portfolio-iplex-reactjs/static/css/main.bc29291b.chunk.css",
+    "main.js": "/portfolio-iplex-reactjs/static/js/main.de307273.chunk.js",
+    "main.js.map": "/portfolio-iplex-reactjs/static/js/main.de307273.chunk.js.map",
+    "runtime-main.js": "/portfolio-iplex-reactjs/static/js/runtime-main.3d4c5369.js",
+    "runtime-main.js.map": "/portfolio-iplex-reactjs/static/js/runtime-main.3d4c5369.js.map",
+    "static/js/2.d5d12a7c.chunk.js": "/portfolio-iplex-reactjs/static/js/2.d5d12a7c.chunk.js",
+    "static/js/2.d5d12a7c.chunk.js.map": "/portfolio-iplex-reactjs/static/js/2.d5d12a7c.chunk.js.map",
+    "index.html": "/portfolio-iplex-reactjs/index.html",
+    "static/css/main.bc29291b.chunk.css.map": "/portfolio-iplex-reactjs/static/css/main.bc29291b.chunk.css.map",
+    "static/js/2.d5d12a7c.chunk.js.LICENSE.txt": "/portfolio-iplex-reactjs/static/js/2.d5d12a7c.chunk.js.LICENSE.txt",
+    "static/media/Home.module.css": "/portfolio-iplex-reactjs/static/media/Ellipse 1@2x.e3d0efe5.png",
+    "static/media/index.css": "/portfolio-iplex-reactjs/static/media/Raleway-ThinItalic.714920a2.woff",
+    "static/media/Testemonials.module.css": "/portfolio-iplex-reactjs/static/media/map-55e32ae4c19a85738ebb72d3172e3ab7@2x.5d62f3cc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6bb64b84.js",
+    "static/js/runtime-main.3d4c5369.js",
     "static/js/2.d5d12a7c.chunk.js",
-    "static/css/main.ccc3ba02.chunk.css",
+    "static/css/main.bc29291b.chunk.css",
     "static/js/main.de307273.chunk.js"
   ]
 }
